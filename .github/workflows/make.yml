@@ -17,8 +17,8 @@ jobs:
         include:
           - os: macos-latest
             label: macOS
-          - os: macos-14
-            label: macOS-14
+          - os: macos-13-large
+            label: macOS-Intel
           - os: windows-latest
             label: Windows
     env:
